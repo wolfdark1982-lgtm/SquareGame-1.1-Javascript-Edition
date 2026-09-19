@@ -2,7 +2,7 @@ import data from './settings.json' with {type:'json'};
 const square = document.createElement('div');
 square.style.width = data.squarewidth || data[0]?.squarewidth || '150px';
 square.style.height = data.squareheight || data[0]?.squareheight || '150px';
-square.style.backgroundColor = data.color || data[0]?.color || 'grey';
+square.style.backgroundColor = data.squarecolor || data[0]?.squarecolor || 'grey';
 square.style.position = 'absolute';
 let positionX = 0;
 let positionY = 0;
