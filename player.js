@@ -1,4 +1,4 @@
-import data from './squaredata.json' with {type:'json'};
+import data from './settings.json' with {type:'json'};
 const square = document.createElement('div');
 square.style.width = data.width || data[0]?.width || '150px';
 square.style.height = data.height || data[0]?.height || '150px';
