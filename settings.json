@@ -1,7 +1,7 @@
 [
     {
         "color":"grey",
-        "width":"150px",
-        "height":"150px"
+        "squarewidth":"150px",
+        "squareheight":"150px"
     }
 ]
