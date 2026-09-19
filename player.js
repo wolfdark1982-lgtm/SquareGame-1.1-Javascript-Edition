@@ -1,7 +1,9 @@
 import color from './colorsquaredata.json' with {type:'json'};
+import width from './colorsquaredata.json' with {type:'json'};
+import height from './colorsquaredata.json' with {type:'json'};
 const square = document.createElement('div');
-square.style.width = '150px';
-square.style.height = '150px';
+square.style.width = width.width || width[0]?.width || width;
+square.style.height = height.height || height[0]?.height || height;
 square.style.backgroundColor = color.color || color[0]?.color || color;
 square.style.position = 'absolute';
 let positionX = 0;
