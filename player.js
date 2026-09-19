@@ -2,7 +2,7 @@ import color from './colorsquaredata.json' with {type:'json'};
 const square = document.createElement('div');
 square.style.width = '150px';
 square.style.height = '150px';
-square.style.backgroundColor = 'color.color || color[0]?.color || color';
+square.style.backgroundColor = color.color || color[0]?.color || color;
 square.style.position = 'absolute';
 let positionX = 0;
 let positionY = 0;
