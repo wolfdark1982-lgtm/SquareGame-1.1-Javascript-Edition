@@ -1,3 +1,6 @@
 to similar to https://github.com/wolfdark1982-lgtm/SquareGame1.1C-Runtime 
 ________________________________________________________________________________
 Updates: added json settings
+________________________________________________________________________________
+
+Coming Soon SquareGame 1.2 Javascript edition
